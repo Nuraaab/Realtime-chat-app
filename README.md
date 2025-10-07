@@ -5,7 +5,7 @@ A modern, real-time chat application built with React, Node.js, and Socket.IO. F
 ## 📸 Screenshots
 
 ### Chat Interface
-![Chat Interface]([screenshots/chat-interface.png](https://github.com/Nuraaab/Realtime-chat-app/blob/570aa956d88572bda6d9d79ba47cbee8c24ce5b4/Screenshot%202025-10-07%20235431.png))
+![Chat Interface](https://github.com/Nuraaab/Realtime-chat-app/blob/570aa956d88572bda6d9d79ba47cbee8c24ce5b4/Screenshot%202025-10-07%20235431.png)
 
 ### Login Screen
 ![Login Screen](screenshots/login-screen.png)
@@ -329,4 +329,5 @@ If you have any questions or need help, please:
 ---
 
 **Happy Chatting! 💬✨**
+
 
