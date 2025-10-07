@@ -18,7 +18,6 @@ A modern, real-time chat application built with React, Node.js, and Socket.IO. F
 
 - 🚀 **Real-time Messaging** - Instant message delivery using WebSockets
 - 💬 **Room-based Chat** - Join specific chat rooms with unique IDs
-- ⌨️ **Typing Indicators** - See when others are typing in real-time
 - 👥 **Multi-user Support** - Multiple users can chat simultaneously
 - 🎨 **Modern UI** - Beautiful, responsive chat interface with message bubbles
 - 🔌 **Connection Status** - Real-time connection status indicator
@@ -328,6 +327,7 @@ If you have any questions or need help, please:
 ---
 
 **Happy Chatting! 💬✨**
+
 
 
 
