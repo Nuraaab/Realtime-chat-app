@@ -202,18 +202,7 @@ realtime-chat-app/
 | `user-joined` | `userId` | Notification when a user joins the room |
 | `user-typing` | `{ username, isTyping, userId }` | Receive typing indicator updates |
 
----
 
-## 🎨 UI/UX Features
-
-- **Message Bubbles**: Modern chat bubble design similar to popular messaging apps
-- **Color Coding**: Your messages appear in purple on the right, others' in white on the left
-- **Smooth Animations**: Messages slide in smoothly when received
-- **Responsive Layout**: Adapts to different screen sizes
-- **Typing Indicators**: See "User is typing..." when others are composing messages
-- **Connection Status**: Visual indicator showing connection state (🟢/🔴)
-
----
 
 ## 🔧 Configuration
 
@@ -248,85 +237,7 @@ REACT_APP_BACKEND_URL=http://localhost:5000
 
 ---
 
-## 🚢 Deployment
 
-### Docker Deployment Profiles
-
-The project includes two Docker Compose profiles:
-
-1. **`single`** - Single backend instance (development)
-2. **`multi-instance`** - Three backend instances with Nginx load balancer (production)
-
-### Production Considerations
-
-- Use environment variables for configuration
-- Enable HTTPS with SSL certificates
-- Configure Nginx for production (gzip, caching, etc.)
-- Set up database for message persistence (Prisma is ready)
-- Implement authentication and authorization
-- Add rate limiting and security headers
-
----
-
-## 🔐 Security Considerations
-
-⚠️ **This is a demonstration project. For production use, consider adding:**
-
-- User authentication (JWT, OAuth)
-- Message encryption
-- Input sanitization and validation
-- Rate limiting
-- CSRF protection
-- Environment-specific CORS settings
-- Secure WebSocket connections (wss://)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 👨‍💻 Author
-
-**Your Name**
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-
----
-
-## 🙏 Acknowledgments
-
-- Socket.IO team for the amazing real-time communication library
-- React team for the excellent frontend framework
-- The open-source community for inspiration and support
-
----
-
-## 📞 Support
-
-If you have any questions or need help, please:
-- Open an issue on GitHub
-- Contact via email
-- Check the documentation in the `/docs` folder
-
----
-
-**Happy Chatting! 💬✨**
 
 
 
