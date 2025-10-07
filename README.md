@@ -64,7 +64,7 @@ Before you begin, ensure you have the following installed:
 
 #### 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Nuraaab/Realtime-chat-app.git
 cd realtime-chat-app
 ```
 
@@ -236,6 +236,7 @@ REACT_APP_BACKEND_URL=http://localhost:5000
 - `npm test` - Run tests
 
 ---
+
 
 
 
